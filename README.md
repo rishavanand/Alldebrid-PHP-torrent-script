@@ -2,7 +2,7 @@
 This is an unofficial script that allows you to use Alldebrid torrent service on your own domain.
 
 ## How to use ?
-1. Install any cookie plugon in your browser.
+1. Install any cookie plugin in your browser.
 2. Goto Alldebrid.com and login.
 3. Open your cookie manager plugin and look for uid.
 4. Copy the uid and paste it in both the scripts. (downloading.php and downloaded.php)
