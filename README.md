@@ -12,4 +12,6 @@ Facebook Page : https://www.facebook.com/tntninja
 
 Feel free to contact me for any support.
 
+** This is not an official script so use it at your own risk.
+
 
