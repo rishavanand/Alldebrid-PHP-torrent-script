@@ -17,7 +17,7 @@ if (isset($_POST[magnet]))
   ));
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
   curl_setopt($ch, CURLOPT_POST, 1);
-  curl_setopt($ch, CURLOPT_POSTFIELDS, 'uid=221be45c1378653e55b18fd9&domain=http%3A%2F%2Fwww.alldebrid.com%2Ftorrent%2F&magnet=' . urlencode($_POST[magnet]) . '&quick=1&value=Convert%20this%20torrent');
+  curl_setopt($ch, CURLOPT_POSTFIELDS, 'uid='.$cookie.'&domain=http%3A%2F%2Fwww.alldebrid.com%2Ftorrent%2F&magnet=' . urlencode($_POST[magnet]) . '&quick=1&value=Convert%20this%20torrent');
   $returndata = curl_exec($ch);
   curl_close($ch);
   $string = $_POST[magnet];
