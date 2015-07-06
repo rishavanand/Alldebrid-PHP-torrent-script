@@ -112,7 +112,7 @@ $json = json_decode($result, true);
 
 foreach($json as $key => $value)
   {
-  if ($value[4] != "finished")
+  if ($value[4] !== "finished")
     {
 ?>
 
